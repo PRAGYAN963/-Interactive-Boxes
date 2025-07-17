@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Expanding Boxes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="bundle-save-section">
+    <hr class="bundle-line" />
+    <span class="bundle-text">Bundle &amp; Save</span>
+    <hr class="bundle-line" />
+  </div>
+
+  <div class="container">
+    <div class="box" id="top-box">
+      <div class="collapsed-offer">
+        <div class="collapsed-offer-left">
+          <input type="radio" name="pair-offer" class="pair-radio" />
+          <div class="collapsed-offer-main">
+            <div class="collapsed-offer-title-row">
+              <span class="collapsed-offer-title">1 Pair</span>
+              <span class="collapsed-badge">10% Off</span>
+            </div>
+            <div class="collapsed-offer-sub">Standard Price</div>
+          </div>
+        </div>
+        <div class="collapsed-offer-right">
+          <div class="collapsed-offer-price">$10.00 USD</div>
+          <div class="collapsed-offer-old-price">$24.00 USD</div>
+        </div>
+      </div>
+      <div class="pair-offer-box">
+        <div class="pair-offer-header">
+          <input type="radio" name="pair-offer" checked class="pair-radio" />
+          <div class="pair-offer-info">
+            <div class="pair-offer-title">1 Pair</div>
+            <div class="pair-offer-price">$10.00 USD</div>
+          </div>
+          <div class="pair-offer-discount">10% OFF</div>
+        </div>
+        <div class="pair-offer-labels-above">
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+        <div class="pair-offer-options-wrapper">
+          <div class="pair-offer-options">
+            <div class="pair-offer-row">
+              <span class="pair-offer-number">#1</span>
+              <select class="pair-size-select">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="pair-colour-select">
+                <option>Red</option>
+                <option>White</option>
+                <option>Black</option>
+              </select>
+            </div>
+            <div class="pair-offer-row">
+              <span class="pair-offer-number">#2</span>
+              <select class="pair-size-select">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="pair-colour-select">
+                <option>Red</option>
+                <option>White</option>
+                <option>Black</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="middle-box">
+      <div class="collapsed-offer">
+        <div class="collapsed-offer-left">
+          <input type="radio" name="pair-offer" class="pair-radio" />
+          <div class="collapsed-offer-main">
+            <div class="collapsed-offer-title-row">
+              <span class="collapsed-offer-title">2 Pair</span>
+              <span class="collapsed-badge">20% Off</span>
+            </div>
+            <div class="collapsed-offer-sub">Standard Price</div>
+          </div>
+        </div>
+        <div class="collapsed-offer-right">
+          <div class="collapsed-offer-price">$18.00 USD</div>
+          <div class="collapsed-offer-old-price">$24.00 USD</div>
+        </div>
+      </div>
+      <div class="most-popular-ribbon">MOST POPULAR</div>
+      <div class="pair-offer-box">
+        <div class="pair-offer-header">
+          <input type="radio" name="pair-offer" class="pair-radio" />
+          <div class="pair-offer-info">
+            <div class="pair-offer-title">2 Pair</div>
+            <div class="pair-offer-price">$18.00 USD</div>
+          </div>
+          <div class="pair-offer-discount">20% OFF</div>
+        </div>
+        <div class="pair-offer-labels-above">
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+        <div class="pair-offer-options-wrapper" id="middle-pair-options-wrapper">
+          <div class="pair-offer-options">
+            <div class="pair-offer-row">
+              <span class="pair-offer-number">#1</span>
+              <select class="pair-size-select">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="pair-colour-select">
+                <option>Black</option>
+                <option>Red</option>
+                <option>White</option>
+              </select>
+            </div>
+            <div class="pair-offer-row">
+              <span class="pair-offer-number">#2</span>
+              <select class="pair-size-select">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="pair-colour-select">
+                <option>Colour</option>
+                <option>Red</option>
+                <option>White</option>
+                <option>Black</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="bottom-box">
+      <div class="collapsed-offer">
+        <div class="collapsed-offer-left">
+          <input type="radio" name="pair-offer" class="pair-radio" />
+          <div class="collapsed-offer-main">
+            <div class="collapsed-offer-title-row">
+              <span class="collapsed-offer-title">3 Pair</span>
+              <span class="collapsed-badge">60% Off</span>
+            </div>
+            <div class="collapsed-offer-sub">Standard Price</div>
+          </div>
+        </div>
+        <div class="collapsed-offer-right">
+          <div class="collapsed-offer-price">$30.00 USD</div>
+          <div class="collapsed-offer-old-price">$60.00 USD</div>
+        </div>
+      </div>
+      <div class="pair-offer-box">
+        <div class="pair-offer-header">
+          <input type="radio" name="pair-offer" class="pair-radio" />
+          <div class="pair-offer-info">
+            <div class="pair-offer-title">3 Pair</div>
+            <div class="pair-offer-price">$30.00 USD</div>
+          </div>
+          <div class="pair-offer-discount">50% OFF</div>
+        </div>
+        <div class="pair-offer-labels-above">
+          <span>Size</span>
+          <span>Colour</span>
+        </div>
+        <div class="pair-offer-options-wrapper" id="bottom-pair-options-wrapper">
+          <div class="pair-offer-options">
+            <div class="pair-offer-row">
+              <span class="pair-offer-number">#1</span>
+              <select class="pair-size-select">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="pair-colour-select">
+                <option>Red</option>
+                <option>White</option>
+                <option>Black</option>
+              </select>
+            </div>
+            <div class="pair-offer-row">
+              <span class="pair-offer-number">#2</span>
+              <select class="pair-size-select">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select class="pair-colour-select">
+                <option>Red</option>
+                <option>White</option>
+                <option>Black</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="checkout-section">
+      <div class="checkout-row">
+        <span class="shipping-info">Free 2 Day Shipping </span>
+      
+        <span class="total-info">Total : <span class="total-amount" id="total-amount"> $ 0.00</span></span>
+      </div>
+      <button class="add-to-cart-btn">+ Add to Cart</button>
+      <div class="powered-by">&#169; Powered by Pumper </div>
+      <div class="powered-by"> Made by Pragyan</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
