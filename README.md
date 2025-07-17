@@ -33,5 +33,3 @@ This project is a modern, interactive UI component for product selection, inspir
 ## Made
 Made by Pragyan
 
----
-Enjoy your interactive product bundle selector! 
